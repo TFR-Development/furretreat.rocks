@@ -151,12 +151,12 @@ ul ul {
     margin-bottom: 0;
 }
 a {
-    color: #de8d31;
+    color: #ffffff;
     text-decoration: none;
 }
 a:focus,
 a:hover {
-    color: #de8d31;
+    color: #ffffff;
     text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
