@@ -321,7 +321,7 @@ h6 {
 }
 .btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 2px rgba(216, 193, 44, 0.25);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
 }
 .btn:disabled {
     cursor: not-allowed;
@@ -332,30 +332,30 @@ h6 {
 }
 .btn-info {
     color: #fff;
-    background-color: #de8d31;
-    border-color: #de8d31;
+    background-color: #707070;
+    border-color: #707070;
 }
 .btn-info:hover {
     color: #fff;
-    background-color: #de8d31;
-    border-color: #de8d31;
+    background-color: #b4b4b4;
+    border-color: #b4b4b4;
 }
 .btn-info:focus {
-    box-shadow: 0 0 0 2px rgba(222, 160, 36, 0.5);
+    box-shadow: 0 0 0 2px rgba(215, 215, 215, 0.5);
 }
 .btn-info:disabled {
-    background-color: #de8d31;
-    border-color: #de8d31;
+    background-color: #b4b4b4;
+    border-color: #b4b4b4;
 }
 .btn-info:active {
     color: #fff;
-    background-color: #de8d31;
+    background-color: #b4b4b4;
     background-image: none;
-    border-color: #de8d31;
+    border-color: #b4b4b4;
 }
 .btn-link {
     font-weight: 400;
-    color: #de8d31;
+    color: #b4b4b4;
     border-radius: 0;
 }
 .btn-link,
@@ -373,7 +373,7 @@ h6 {
 }
 .btn-link:focus,
 .btn-link:hover {
-    color: #d89441;
+    color: #b4b4b4;
     text-decoration: underline;
     background-color: transparent;
 }
@@ -645,11 +645,11 @@ h6 {
     color: #fff!important;
 }
 .text-info {
-    color: #de8d31!important;
+    color: #555555 !important;
 }
 a.text-info:focus,
 a.text-info:hover {
-    color: #de8d31!important;
+    color: #555555 !important;
 }
 body,
 html {
@@ -692,7 +692,7 @@ body:before {
     left: 0;
     width: 100%;
     height: 550px;
-    background-image: linear-gradient(45deg,rgba(233,173,73,.66) 0,#b69651 100%);
+    background-image: linear-gradient(45deg, rgba(180, 180, 180, 0.66) 0, #696969 100%);
 }
 .topmenu {
     position: relative;
@@ -780,7 +780,7 @@ section.join .line {
 .footer {
     padding: 40px;
     background-color: #25272c;
-    background-image: linear-gradient(45deg,rgba(233,173,73,.66) 0,#b69651 100%);
+    background-image: linear-gradient(45deg, rgba(180, 180, 180, 0.66) 0, #696969 100%);
     line-height: 24px;
     font-size: 20px;
     color: #fff;
@@ -823,7 +823,7 @@ h3 {
 }
 .btn-pill {
     height: 50px;
-    padding: 0 100px;
+    padding: 12.5px 50px;
     box-shadow: 0 2px 10px 0 rgba(0,0,0,.28);
     border-radius: 100px;
     text-align: center;
@@ -839,7 +839,7 @@ h3 {
 }
 .btn-pill.white {
     background: #fff;
-    color: #de8d31;
+    color: #858585;
 }
 .links-suppressor a,
 a.links-suppressor {
