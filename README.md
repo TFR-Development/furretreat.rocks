@@ -1,2 +1,3 @@
 # furretreat.rocks
-The website for the Fur Retreat - (https://furretreat.rocks/)
+
+The [official website](https://furretreat.rocks/) for The Fur Retreat.

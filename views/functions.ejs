@@ -1,0 +1,8 @@
+<%
+    createIcon = async function(client, id) {
+        await client.users.fetch(id).then(user => {
+            const url = user.avatarURL;
+            return url;
+        });
+    };
+%>
