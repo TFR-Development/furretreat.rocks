@@ -657,6 +657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
+  border-radius: 50%;
 }
 
 #team .member .pic img {
