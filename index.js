@@ -19,7 +19,6 @@ client.on("ready", function () {
 });
 
 http.port = process.env.PORT || 3000;
-http.client = client;
 
 app
     .use(bodyParser.json())
@@ -28,6 +27,10 @@ app
     .use(website.static(path.join(__dirname, "/public")))
     .set("view engine", "ejs")
     .set("views", path.join(__dirname, "views"))
+    .use("*", (req, res, next) => {
+        req.client = client;
+        next();
+    })
     .use("/", require("./router"))
     .get("*", function(req, res) {
         res.redirect("/");
