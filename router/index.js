@@ -42,7 +42,7 @@ router.get("/", async (req, res) => {
         "109710323094683648",
         "139836912335716352",
     ].map(id => users.fetch(id, true)
-         .then(user => `${user.displayAvatarURL()}?size=2048`)
+         .then(user => user.displayAvatarURL({ format: user.avatar.startsWith('a_') ? 'gif' : 'png', size: 2048 }))
          .catch(() => "https://cdn.discordapp.com/embed/avatars/0.png")
     ));
     res.render("index.ejs", {
