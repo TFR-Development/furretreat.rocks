@@ -18,7 +18,10 @@ router.get("/", async (req, res) => {
         "291607550825332736",
         "102341036403068928",
         "302787989384462336",
-    ].map(id => users.fetch(id)))
+    ].map(id => users.fetch(id)
+         .then(user => user.displayAvatarURL())
+         .catch(() => "https://cdn.discordapp.com/embed/avatars/0.png")
+    ));
     res.render("index.ejs", {
         client: req.client.server.client.user,
         avatars: {
