@@ -2,7 +2,10 @@ const express = require('express');
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-    const { users } = req.client;
+    const { users, guilds } = req.client
+
+    const furRetreat = guilds.get("569747786199728150");
+
     const [
         benAvatar,
         austinAvatar,
@@ -60,6 +63,9 @@ router.get("/", async (req, res) => {
             jaydenAvatar,
             kelwingAvatar,
             vladAvatar,
+        },
+        guilds: {
+            furRetreat
         }
     });
 });

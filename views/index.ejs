@@ -45,6 +45,7 @@ Header
       <ul class="nav-menu">
         <li class="menu-active"><a href="#hero">Home</a></li>
         <li><a href="#about">About Us</a></li>
+        <li><a href="#facts">Facts</a></li>
         <li><a href="#team">Team</a></li>
       </ul>
     </nav><!-- #nav-menu-container -->
@@ -74,7 +75,7 @@ Header
         <div class="col-lg-6 content order-lg-1 order-2">
           <h2 class="title">About Us</h2>
           <p>
-            The Fur Retreat was originally made with the goal of bringing furries together to find new friends and chill. It has now expanded into a Discord server with over 250 members and a Telegram group with over 50 members (and growing!)
+            The Fur Retreat was originally made with the goal of bringing furries together to find new friends and chill. It has now expanded into a Discord server with <%= guilds.furRetreat.memberCount %> members and a Telegram group with over 50 members (and growing!)
           </p>
 
           <div class="icon-box wow fadeInUp">
@@ -91,7 +92,7 @@ Header
 
           <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
             <div class="icon"><i class="fas fa-hashtag"></i></div>
-            <h4 class="title"><a href="">Over 50 channels</a></h4>
+            <h4 class="title"><a href="">Many channels</a></h4>
             <p class="description">There are lots of awoomazing channels for you to chat in! From memes to art; share anything you can think of.</p>
           </div>
 
@@ -115,22 +116,22 @@ Header
       <div class="row counters">
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">0</span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.memberCount %></span>
           <p>Total Members</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">0</span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.members.filter(member => member.user.presence.status !== "offline").size %></span>
           <p>Members Online</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">0</span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.channels.size %></span>
           <p>Channels</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">0</span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.roles.size %></span>
           <p>Roles</p>
         </div>
 
