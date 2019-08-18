@@ -7,7 +7,14 @@
 [![Discord](https://img.shields.io/discord/569747786199728150?label=Discord&logo=Discord)](https://discord.furretreat.rocks)
 [![Twitter Follow](https://img.shields.io/twitter/follow/furretreat?style=social)](https://twitter.com/FurRetreat)
 
-###### The [official website](https://furretreat.rocks/) for The Fur Retreat.
+###### The [official website](https://furretreat.rocks/) for The Fur Retreat - *with updating avatars and server stats!*
+
+## Screenshots
+![Main view](https://bread-is-a.stale-me.me/i/j9fm2isq.png)
+
+![Stats view](https://bread-is-a.stale-me.me/i/5wfo7fgq.png)
+
+![Avatar view](https://bread-is-a.stale-me.me/i/vps2y2qq.png)
 
 ## Setup
 1. Install the latest version of node.js.
