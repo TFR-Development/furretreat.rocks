@@ -25,6 +25,7 @@ app
     .use(bodyParser.urlencoded({ extended: true }))
     .engine("html", require("ejs").renderFile)
     .use(website.static(path.join(__dirname, "/public")))
+    .use("/", website.static(__dirname + '/media'))
     .set("view engine", "ejs")
     .set("views", path.join(__dirname, "views"))
     .use("*", (req, res, next) => {
