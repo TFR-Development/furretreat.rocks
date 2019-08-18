@@ -575,20 +575,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
-/* Facts Section
+/* Stats Section
 --------------------------------*/
-#facts {
+#stats {
   background: #f7f7f7;
   padding: 80px 0 60px 0;
 }
 
-#facts .counters span {
+#stats .counters span {
   font-size: 48px;
   display: block;
   color: #7864c9;
 }
 
-#facts .counters p {
+#stats .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Poppins", sans-serif;
