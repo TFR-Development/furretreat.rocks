@@ -19,7 +19,6 @@ router.get("/", async (req, res) => {
         tigerAvatar,
         karnageAvatar,
         sentryAvatar,
-        blueAvatar,
         jaydenAvatar
     ] = await Promise.all([
         // IDs are in order like above
@@ -35,7 +34,6 @@ router.get("/", async (req, res) => {
         "267103945346908161",
         "183555431937998849",
         "552245318146850825",
-        "511447531402559488",
         "503105733701926922"
     ].map(id => users.fetch(id, true)
          .then(user => user.displayAvatarURL({ format: user.avatar.startsWith('a_') ? 'gif' : 'png', size: 2048 }))
@@ -55,7 +53,6 @@ router.get("/", async (req, res) => {
             tigerAvatar,
             karnageAvatar,
             sentryAvatar,
-            blueAvatar,
             jaydenAvatar
         },
         guilds: {
