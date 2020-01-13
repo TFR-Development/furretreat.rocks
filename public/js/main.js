@@ -68,7 +68,7 @@ jQuery(document).ready(function ($) {
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
-  // Smoth scroll on page hash links
+  // Smooth scroll on page hash links
   $('a[href*="#"]:not([href="#"])').on('click', function () {
     if (location.pathname.replace(/^\//, "") === this.pathname.replace(/^\//, "") && location.hostname === this.hostname) {
 
@@ -92,13 +92,6 @@ jQuery(document).ready(function ($) {
           $(".nav-menu .menu-active").removeClass("menu-active");
           $(this).closest("li").addClass("menu-active");
         }
-
-        if ($("body").hasClass("mobile-nav-active")) {
-          $("body").removeClass("mobile-nav-active");
-          $("#mobile-nav-toggle i").toggleClass("fa-times fa-bars");
-          $("#mobile-body-overly").fadeOut();
-        }
-        return false;
       }
     }
   });
