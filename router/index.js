@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
 router.get("/", async (req, res) => {
@@ -35,8 +35,8 @@ router.get("/", async (req, res) => {
         "183555431937998849",
         "552245318146850825",
         "503105733701926922"
-    ].map(id => users.fetch(id, true)
-         .then(user => user.displayAvatarURL({ format: user.avatar.startsWith('a_') ? 'gif' : 'png', size: 2048 }))
+    ].map((id) => users.fetch(id, true)
+         .then((user) => user.displayAvatarURL({ format: user.avatar.startsWith("a_") ? 'gif' : 'png', size: 2048 }))
          .catch(() => "https://cdn.discordapp.com/embed/avatars/0.png")
     ));
     res.render("index.ejs", {
