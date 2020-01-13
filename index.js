@@ -13,7 +13,7 @@ client.config = config;
 client.on("ready", function () {
   console.log(`[READY] Bot user: ${client.user.tag}.`);
 
-  client.user.setActivity(`➟ furretreat.rocks`, {
+  client.user.setActivity("➟ furretreat.rocks", {
     type: "WATCHING"
   });
 });
@@ -25,7 +25,7 @@ app
     .use(bodyParser.urlencoded({ extended: true }))
     .engine("html", require("ejs").renderFile)
     .use(website.static(path.join(__dirname, "/public")))
-    .use("/", website.static(__dirname + '/media'))
+    .use("/", website.static(__dirname + "/media"))
     .set("view engine", "ejs")
     .set("views", path.join(__dirname, "views"))
     .use("*", (req, res, next) => {
@@ -38,7 +38,9 @@ app
     });
 
 http.listen(http.port, function(err) {
-    if (err) throw err;
+    if (err) {
+        throw err;
+    };
     console.log(`[READY] Website is online at the port: ${http.port}`);
 });
 
