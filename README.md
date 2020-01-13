@@ -10,11 +10,11 @@
 ###### The [official website](https://furretreat.rocks/) for The Fur Retreat - *with updating avatars and server stats!*
 
 ## Screenshots
-![Main view](https://bread-is-a.stale-me.me/i/j9fm2isq.png)
+![Main view](https://i.reupload.gg/rgZk3xPZg.png)
 
-![Stats view](https://bread-is-a.stale-me.me/i/5wfo7fgq.png)
+![Stats view](https://i.reupload.gg/6wOm3xPWR.png)
 
-![Avatar view](https://bread-is-a.stale-me.me/i/vps2y2qq.png)
+![Avatar view](https://i.reupload.gg/dl6nqxEWg.png)
 
 ## Setup
 1. Install the latest version of node.js.
