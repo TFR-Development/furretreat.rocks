@@ -10,7 +10,7 @@
 ## The [official website](https://furretreat.rocks/) for The Fur Retreat - *with updating avatars and server stats*
 
 ### Screenshots
-![Main view](https://i.reupload.gg/rgZk3xPZg.png)
+![Main view](https://i.reupload.gg/YTut7-PWR.png)
 
 ![Stats view](https://i.reupload.gg/6wOm3xPWR.png)
 
