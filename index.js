@@ -40,7 +40,7 @@ app
 http.listen(http.port, function(err) {
     if (err) {
         throw err;
-    };
+    }
     console.log(`[READY] Website is online at the port: ${http.port}`);
 });
 
