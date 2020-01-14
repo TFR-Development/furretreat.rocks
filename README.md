@@ -1,8 +1,8 @@
 # furretreat.rocks
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e9916df795ad465d9565aa7d321bc0b2)](https://app.codacy.com/app/ben071/furretreat.rocks)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/ben071/furretreat.rocks)
-[![Language Badge](https://img.shields.io/github/languages/top/ben071/furretreat.rocks.svg)](https://github.com/ben071/furretreat.rocks)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TFR-Development/furretreat.rocks)
+[![Language Badge](https://img.shields.io/github/languages/top/TFR-Development/furretreat.rocks.svg)](https://github.com/TFR-Development/furretreat.rocks)
 
 [![Discord](https://img.shields.io/discord/569747786199728150?label=Discord&logo=Discord)](https://discord.furretreat.rocks)
 [![Twitter Follow](https://img.shields.io/twitter/follow/furretreat?style=social)](https://twitter.com/FurRetreat)
