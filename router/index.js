@@ -18,8 +18,7 @@ router.get("/", async (req, res) => {
         lewisAvatar,
         tigerAvatar,
         karnageAvatar,
-        sentryAvatar,
-        jaydenAvatar
+        sentryAvatar
     ] = await Promise.all([
         // IDs are in order like above
         "265569046425108481",
@@ -33,8 +32,7 @@ router.get("/", async (req, res) => {
         "176371068448145408",
         "267103945346908161",
         "183555431937998849",
-        "552245318146850825",
-        "503105733701926922"
+        "552245318146850825"
     ].map((id) => users.fetch(id, true)
          .then((user) => user.displayAvatarURL({ format: user.avatar.startsWith("a_") ? "gif" : "png", size: 2048 }))
          .catch(() => "https://cdn.discordapp.com/embed/avatars/0.png")
@@ -52,8 +50,7 @@ router.get("/", async (req, res) => {
             lewisAvatar,
             tigerAvatar,
             karnageAvatar,
-            sentryAvatar,
-            jaydenAvatar
+            sentryAvatar
         },
         guilds: {
             furRetreat
