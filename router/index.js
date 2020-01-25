@@ -12,13 +12,18 @@ router.get("/", async (req, res) => {
         toastAvatar,
         jackAvatar,
         kelwingAvatar,
-        codfishAvatar,
+        lewisAvatar,
         jaspAvatar,
         chaseAvatar,
-        lewisAvatar,
         tigerAvatar,
+        strifeAvatar,
+        angelAvatar,
+        reinheitAvatar,
+        tropicalAvatar,
         karnageAvatar,
-        sentryAvatar
+        sentryAvatar,
+        zarelAvatar,
+        forestAvatar
     ] = await Promise.all([
         // IDs are in order like above
         "265569046425108481",
@@ -26,13 +31,18 @@ router.get("/", async (req, res) => {
         "396459305961914369",
         "291607550825332736",
         "109710323094683648",
-        "102341036403068928",
+        "176371068448145408",
         "422650822254526474",
         "292452611200909313",
-        "176371068448145408",
         "267103945346908161",
+        "469753186962374657",
+        "280864874878337024",
+        "286942968550785025",
+        "547950545910890498",
         "183555431937998849",
-        "552245318146850825"
+        "552245318146850825",
+        "538148951614816256",
+        "469408379878506496"
     ].map((id) => users.fetch(id, true)
          .then((user) => user.displayAvatarURL({ format: user.avatar.startsWith("a_") ? "gif" : "png", size: 2048 }))
          .catch(() => "https://cdn.discordapp.com/embed/avatars/0.png")
@@ -44,13 +54,18 @@ router.get("/", async (req, res) => {
             toastAvatar,
             jackAvatar,
             kelwingAvatar,
-            codfishAvatar,
+            lewisAvatar,
             jaspAvatar,
             chaseAvatar,
-            lewisAvatar,
             tigerAvatar,
+            strifeAvatar,
+            angelAvatar,
+            reinheitAvatar,
+            tropicalAvatar,
             karnageAvatar,
-            sentryAvatar
+            sentryAvatar,
+            zarelAvatar,
+            forestAvatar
         },
         guilds: {
             furRetreat
