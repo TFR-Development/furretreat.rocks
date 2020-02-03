@@ -21,7 +21,6 @@ router.get("/", async (req, res) => {
         reinheitAvatar,
         tropicalAvatar,
         karnageAvatar,
-        sentryAvatar,
         zarelAvatar,
         forestAvatar
     ] = await Promise.all([
@@ -40,7 +39,6 @@ router.get("/", async (req, res) => {
         "286942968550785025",
         "547950545910890498",
         "183555431937998849",
-        "552245318146850825",
         "538148951614816256",
         "469408379878506496"
     ].map((id) => users.fetch(id, true)
@@ -63,7 +61,6 @@ router.get("/", async (req, res) => {
             reinheitAvatar,
             tropicalAvatar,
             karnageAvatar,
-            sentryAvatar,
             zarelAvatar,
             forestAvatar
         },
