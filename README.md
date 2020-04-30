@@ -10,11 +10,11 @@
 ## The [official website](https://furretre.at/) for The Fur Retreat - *with updating avatars and server stats*
 
 ### Screenshots
-![Main view](https://i.reupload.gg/YTut7-PWR.png)
+![Main view](https://i.reupload.gg/qNrE2veZR.jpeg)
 
-![Stats view](https://i.reupload.gg/6wOm3xPWR.png)
+![Stats view](https://i.reupload.gg/dSyU2v6Zg.png)
 
-![Avatar view](https://i.reupload.gg/dl6nqxEWg.png)
+![Avatar view](https://i.reupload.gg/BYi_hveZR.png)
 
 ### Setup
 1. Install the latest version of node.js.
