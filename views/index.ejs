@@ -59,12 +59,12 @@ Header
   <div class="container">
 
     <div id="logo" class="pull-left">
-      <a href="#hero"><img src="/img/transparent-icon.png" width="40" height="40" alt="" title="" /></img></a>
+      <a href="#home"><img src="/img/transparent-icon.png" width="40" height="40" alt="" title="" /></img></a>
     </div>
 
     <nav id="nav-menu-container">
       <ul class="nav-menu">
-        <li class="menu-active"><a href="#hero">Home</a></li>
+        <li class="menu-active"><a href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#stats">Stats</a></li>
         <li><a href="#team">Staff Team</a></li>
@@ -75,15 +75,15 @@ Header
 </header><!-- #header -->
 
 <!--==========================
-  Hero Section
+  Home Section
 ============================-->
-<section id="hero">
-  <div class="hero-container">
+<section id="home">
+  <div class="home-container">
     <h1>The Fur Retreat <i class="fas fa-paw fa-xs"></i></h1>
     <h2>We are a friendly furry Discord community.</h2>
     <a href="#about" class="btn-get-started">Awoo!</a>
   </div>
-</section><!-- #hero -->
+</section><!-- #home -->
 
 <main id="main">
 
@@ -219,6 +219,8 @@ Header
           <div class="social">
             <a href="https://twitter.com/toastdiscord"><i class="fab fa-twitter"></i></a>
             <a href="https://t.me/ToastFromDiscord"><i class="fab fa-telegram"></i></a>
+            <a href="https://github.com/toastdc"><i class="fab fa-github"></i></a>
+            <a href="https://toastlurks.com"><i class="fa fa-link"></i></a>
           </div>
         </div>
       </div>
@@ -228,6 +230,9 @@ Header
           <div class="pic"><img src="<%= avatars.jackAvatar %>" height="260px" width="260px" alt="Jack"></div>
           <h4>Jack</h4>
           <span>Owner</span>
+          <div class="social">
+            <a href="https://github.com/Jack073"><i class="fab fa-github"></i></a>
+          </div>
         </div>
       </div>
 
@@ -255,8 +260,9 @@ Header
           <span>Manager</span>
           <div class="social">
             <a href="https://twitter.com/sniff122N"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/sniff122"><i class="fab fa-telegram"></i></a>
             <a href="https://github.com/sniff122"><i class="fab fa-github"></i></a>
-            <a href="https://sniff122.ga"><i class="fa fa-link"></i></a>
+            <a href="https://sniff122.com"><i class="fa fa-link"></i></a>
           </div>
         </div>
       </div>
@@ -351,6 +357,18 @@ Header
     <div class="row">
       <div class="col-lg-3 col-md-6">
         <div class="member">
+          <div class="pic"><img src="<%= avatars.steakAvatar %>" height="260px" width="260px" alt="Steak"></div>
+          <h4>Steak</h4>
+          <span>Moderator</span>
+          <div class="social">
+            <a href="https://twitter.com/dasteakpotato"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/dasteakpotato"><i class="fab fa-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
           <div class="pic"><img src="<%= avatars.winstonAvatar %>" height="260px" width="260px" alt="Winston"></div>
           <h4>Winston</h4>
           <span>Moderator</span>
@@ -374,14 +392,6 @@ Header
 
       <div class="col-lg-3 col-md-6">
         <div class="member">
-          <div class="pic"><img src="<%= avatars.banditAvatar %>" height="260px" width="260px" alt="Bandit"></div>
-          <h4>Bandit</h4>
-          <span>Helper</span>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-6">
-        <div class="member">
           <div class="pic"><img src="<%= avatars.astroAvatar %>" height="260px" width="260px" alt="Astro"></div>
           <h4>Astro</h4>
           <span>Helper</span>
@@ -390,6 +400,16 @@ Header
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="<%= avatars.banditAvatar %>" height="260px" width="260px" alt="Bandit"></div>
+            <h4>Bandit</h4>
+            <span>Helper</span>
+          </div>
+        </div>
     </div>
   </div>
 </section><!-- #team -->
@@ -406,10 +426,10 @@ Header
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <%= new Date().getFullYear() %> <strong>The Fur Retreat</strong>. All Rights Reserved
+      &copy; Copyright <%= new Date().getFullYear() %> <strong>The Fur Retreat</strong>. All Rights Reserved.
     </div>
     <div class="credits">
-      Designed by <a href="https://github.com/Ben071"><i class="fab fa-github"></i> Ben071</a>
+      Designed by <a href="https://github.com/Ben071"><i class="fab fa-github"></i> Ben071</a> | Powered by <a href="https://getbootstrap.com/"><i class="fab fa-bootstrap"></i> Bootstrap</a>
     </div>
   </div>
 </footer><!-- #footer -->
