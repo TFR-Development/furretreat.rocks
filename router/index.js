@@ -7,13 +7,13 @@ router.get("/", async (req, res) => {
     const furRetreat = guilds.get("569747786199728150");
 
     const [
-        benAvatar,
+        benjiAvatar,
         toastAvatar,
         jackAvatar,
         kelwingAvatar,
         lewisAvatar,
         austinAvatar,
-        jaspAvatar,
+        jasperAvatar,
         karnageAvatar,
         chaseAvatar,
         tigerAvatar,
@@ -49,13 +49,13 @@ router.get("/", async (req, res) => {
     ));
     res.render("index.ejs", {
         avatars: {
-            benAvatar,
+            benjiAvatar,
             toastAvatar,
             jackAvatar,
             kelwingAvatar,
             lewisAvatar,
             austinAvatar,
-            jaspAvatar,
+            jasperAvatar,
             karnageAvatar,
             chaseAvatar,
             tigerAvatar,
