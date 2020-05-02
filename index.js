@@ -13,7 +13,7 @@ client.config = config;
 client.on("ready", function () {
   console.log(`[READY] Bot user: ${client.user.tag}.`);
 
-  client.user.setActivity("➟ furretreat.rocks", {
+  client.user.setActivity("➟ furretre.at", {
     type: "WATCHING"
   });
 });
