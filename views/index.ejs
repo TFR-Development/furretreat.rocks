@@ -143,12 +143,12 @@ Header
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up"><%= guilds.furRetreat.members.filter(member => member.user.presence.status !== "offline").size %></span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.members.cache.filter(member => member.user.presence.status !== "offline").size %></span>
           <p>Members Online</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up"><%= guilds.furRetreat.channels.size %></span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.channels.cache.size %></span>
           <p>Channels</p>
         </div>
 

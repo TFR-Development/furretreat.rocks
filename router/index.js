@@ -4,7 +4,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
     const { users, guilds } = req.client
 
-    const furRetreat = guilds.get("569747786199728150");
+    const furRetreat = guilds.cache.get("569747786199728150");
 
     const [
         benjiAvatar,
