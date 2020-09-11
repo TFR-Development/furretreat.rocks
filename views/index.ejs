@@ -143,17 +143,17 @@ Header
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up"><%= guilds.furRetreat.members.filter(member => member.user.presence.status !== "offline").size %></span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.members.cache.filter(member => member.user.presence.status !== "offline").size %></span>
           <p>Members Online</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up"><%= guilds.furRetreat.channels.size %></span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.channels.cache.size %></span>
           <p>Channels</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up"><%= guilds.furRetreat.roles.size %></span>
+          <span data-toggle="counter-up"><%= guilds.furRetreat.roles.cache.size %></span>
           <p>Roles</p>
         </div>
 
@@ -308,14 +308,6 @@ Header
     <!-- Row 3 -->
 
     <div class="row">
-      <div class="col-lg-3 col-md-6">
-        <div class="member">
-          <div class="pic"><img src="<%= avatars.angelAvatar %>" height="260px" width="260px" alt="Angel"></div>
-          <h4>Angel</h4>
-          <span>Manager</span>
-        </div>
-      </div>
-
       <div class="col-lg-3 col-md-6">
         <div class="member">
           <div class="pic"><img src="<%= avatars.strifeAvatar %>" height="260px" width="260px" alt="Strife"></div>
