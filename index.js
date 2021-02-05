@@ -18,7 +18,7 @@ client.on("ready", function () {
   });
 });
 
-http.port = process.env.PORT || 3001;
+http.port = process.env.PORT || config.port || 3001;
 
 app
     .use(bodyParser.json())
