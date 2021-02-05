@@ -7,50 +7,57 @@ router.get("/", async (req, res) => {
     const furRetreat = guilds.cache.get("569747786199728150");
 
     const [
-        benjiAvatar,
+        //Admins
         toastAvatar,
         jackAvatar,
-        kelwingAvatar,
+        //Moderation Team
         lewisAvatar,
+        astutoAvatar,
+        johnAvatar,
+        rileyAvatar,
+        //Community Team
         austinAvatar,
-        jasperAvatar,
-        strifeAvatar,
-        angelAvatar,
-        winstonAvatar,
-        tropicalAvatar,
-        rileyAvatar
+        //Events Team
+        lukeAvatar,
+        jaydenAvatar,
+        ashAvatar,
+        willAvatar,
+        jacobAvatar
     ] = await Promise.all([
         // IDs are in order like above
-        "265569046425108481",
-        "396459305961914369",
-        "291607550825332736",
-        "109710323094683648",
-        "176371068448145408",
-        "219117197178568708",
-        "422650822254526474",
-        "469753186962374657",
-        "280864874878337024",
-        "286942968550785025",
-        "547950545910890498",
-        "304010736064135168"
+        "396459305961914369", //Toast
+        "291607550825332736", //Jack
+        //Moderation Team
+        "176371068448145408", //Sniff
+        "657417239913431070", //Astu
+        "553600516337434646", //John
+        "304010736064135168", //Riley
+        //Community Team
+        "219117197178568708", //Austin
+        //Events Team
+        "286942968550785025", //Winston
+        "503105733701926922", //Jayden
+        "409880316204023810", //Ash
+        "484390809383206932", //William
+        "717825521978704035" //Jacob
     ].map((id) => users.fetch(id, true)
          .then((user) => user.displayAvatarURL({ format: user.avatar.startsWith("a_") ? "gif" : "png", size: 2048 }))
          .catch(() => "https://cdn.discordapp.com/embed/avatars/0.png")
     ));
     res.render("index.ejs", {
         avatars: {
-            benjiAvatar,
             toastAvatar,
             jackAvatar,
-            kelwingAvatar,
+            astutoAvatar,
+            johnAvatar,
             lewisAvatar,
+            rileyAvatar,
             austinAvatar,
-            jasperAvatar,
-            strifeAvatar,
-            angelAvatar,
-            winstonAvatar,
-            tropicalAvatar,
-            rileyAvatar
+            lukeAvatar,
+            jaydenAvatar,
+            ashAvatar,
+            willAvatar,
+            jacobAvatar
         },
         guilds: {
             furRetreat

@@ -1,5 +1,5 @@
 {
-  "name": "furretreat.rocks",
+  "name": "furretre.at",
   "version": "1.0.0",
   "description": "The official website for The Fur Retreat.",
   "main": "index.js",
@@ -10,16 +10,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ben071/furretreat.rocks.git"
+    "url": "git+https://github.com/TFR-Development/furretre.at.git"
   },
-  "author": "Benjamin Higgs",
+  "author": "TFR Development (formerly Benjamin Higgs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ben071/furretreat.rocks/issues"
+    "url": "https://github.com/TFR-Development/furretre.at/issues"
   },
-  "homepage": "https://github.com/ben071/furretreat.rocks#readme"
+  "homepage": "https://github.com/TFR-Development/furretre.at#readme"
 }
